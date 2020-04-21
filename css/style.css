@@ -79,3 +79,16 @@
     }
 
 }
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .post-short, .post-short-head {
+        width: 80%;
+    }
+    
+    .post-short {
+        margin: 20px 14px 0 5px;
+    }
+}
